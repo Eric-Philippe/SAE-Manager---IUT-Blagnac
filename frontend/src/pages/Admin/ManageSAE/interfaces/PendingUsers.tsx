@@ -1,3 +1,5 @@
+// Ignore test
+
 import { Sheet, Table, Typography } from "@mui/joy";
 import Topic from "../../../../models/Topic";
 import { cutText } from "../../../../utils/Utils";

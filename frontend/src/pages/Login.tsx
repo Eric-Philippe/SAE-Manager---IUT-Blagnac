@@ -1,3 +1,5 @@
+// Ignore test
+
 import * as React from "react";
 import {
   Button,

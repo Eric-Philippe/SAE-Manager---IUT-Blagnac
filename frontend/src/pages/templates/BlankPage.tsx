@@ -1,3 +1,5 @@
+// Ignore test
+
 import React from "react";
 
 import { Box, CssBaseline, CssVarsProvider, Stack, Typography } from "@mui/joy";

@@ -1,9 +1,14 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { fireEvent, render, screen } from "@testing-library/react";
+import userEvent from "@testing-library/user-event";
+import Copyright from "./components/Copyright";
+import fs from "fs";
+import path from "path";
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe("React Common Tests", () => {
+  test("renders the right year", () => {
+    render(<Copyright />);
+    const currentYear = new Date().getFullYear();
+    const goodYear = screen.getByText(currentYear.toString());
+    expect(goodYear).toBeInTheDocument();
+  });
 });

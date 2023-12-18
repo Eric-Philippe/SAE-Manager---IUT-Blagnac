@@ -1,9 +1,4 @@
-import { Sheet } from "@mui/joy";
-
-// Blank Page Template
-import BlankPage from "../../templates/BlankPage";
-
-// Enums
+// Ignore test
 import { Status } from "../../../assets/enums/Status.enum";
 
 // Page Content

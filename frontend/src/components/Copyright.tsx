@@ -7,9 +7,8 @@ export default function Copyright(props: any) {
       {"Copyright © "}
       <Link color="inherit" href="https://mui.com/">
         ProGest SAE Manager
-      </Link>{" "}
-      {new Date().getFullYear()}
-      {"."}
+      </Link>
+      <span> {new Date().getFullYear()} </span>
     </Typography>
   );
 }

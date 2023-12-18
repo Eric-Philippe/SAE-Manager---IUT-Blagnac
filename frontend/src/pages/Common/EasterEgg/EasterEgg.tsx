@@ -1,3 +1,5 @@
+// Ignore test
+
 import { Box, Button, CssBaseline, Grid } from "@mui/material";
 import thomasJpg from "../../../assets/img/thomas.webp";
 import { URLs } from "../../../assets/enums/URLs.enum";

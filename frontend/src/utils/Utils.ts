@@ -34,6 +34,14 @@ export function convertSaeStatutEnumToHText(statut: SAEStatus) {
   }
 }
 
+/**
+ * Usefull for the Copyrigth to keep it up to date
+ * @returns Return the current year
+ */
+export function getCurrentYear() {
+  return new Date().getFullYear();
+}
+
 export function random(max: number) {
   return Math.floor(Math.random() * max);
 }
