@@ -24,10 +24,11 @@ Le sous-projet BDD s'est concentré autour du `Frontend` de l'application, réal
 
 ## 📕 Prérequis
 
-- [NodeJS](https://nodejs.org/en/) (version 20.15.4 LTS)
+- [NodeJS](https://nodejs.org/en/) (version >= 14.15.4)
 - [npm](https://www.npmjs.com/) (version 6.14.10)
 
 Pour l'entièreté de ces tests, il faut se placer dans le dossier `frontend/` du projet, et lancer la commande `npm install` pour installer toutes les dépendances nécessaires. Tout est défini dans le fichier `package.json`, parmi les dépendances et les scripts.
+Le script pour lancer les tests cucumber est `npm run test:cucumber`.
 
 ## Tests unitaires - Cucumber / Basiques
 
