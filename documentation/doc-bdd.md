@@ -240,8 +240,6 @@ for pageFile in $files; do
     echo "❌ Error: BlankPage structure not found at least three times in $pageFile"
     errorFound=1  # Marque l'erreur
   fi
-
-  # Ajoute d'autres vérifications au besoin en fonction de la structure réelle de BlankPage
 done
 
 # Si une erreur a été trouvée, renvoie un code d'erreur
@@ -262,3 +260,7 @@ _Gherkin_
 ## 📕 Résultats
 
 <img src="./images/bdd_result.png">
+
+## 📕 Conclusion
+
+Parmis les trois approches, la première semble peu utile avec des fichier Typescript aussi faiblement complexe. La seconde approche est plus intéressante, mais produit une vision trop large des tests unitaires, et ne permet pas de contrôler les erreurs. La troisième approche est la plus intéressante, car elle permet de contrôler les erreurs, et de contrôler des scripts shell, qui peuvent être utilisés pour contrôler des scripts de déploiement par exemple. Le tout permet alors de tester l'intégrité de manière séparée du projet, et de manière plus globale.

@@ -24,7 +24,6 @@ for pageFile in $files; do
     errorFound=1  # Marque l'erreur
   fi
 
-  # Ajoute d'autres vérifications au besoin en fonction de la structure réelle de BlankPage
 done
 
 # Si une erreur a été trouvée, renvoie un code d'erreur
