@@ -93,11 +93,12 @@ Plus d'informations sur l'installation et le déploiement dans la [Documentation
 
 ## 📚 Documentation
 
-|                               Documentation                               |
-| :-----------------------------------------------------------------------: |
-|                       [Sources backend](./backend)                        |
-|                      [Sources frontend](./frontend)                       |
-|      [Documentation Utilisateur](./documentation/doc-utilisateur.md)      |
-| [Documentation Technique Frontend](./documentation/doc-technique-front.md) |
-| [Documentation Technique Backend](./documentation/doc-technique-back.md) |
-| [Documentation de build](./documentation/build.md)                        |
+|                                 Documentation                                  |
+| :----------------------------------------------------------------------------: |
+|                          [Sources backend](./backend)                          |
+|                         [Sources frontend](./frontend)                         |
+|        [Documentation Utilisateur](./documentation/doc-utilisateur.md)         |
+|   [Documentation Technique Frontend](./documentation/doc-technique-front.md)   |
+|    [Documentation Technique Backend](./documentation/doc-technique-back.md)    |
+|               [Documentation de build](./documentation/build.md)               |
+| [Documentation BDD (Eric PHILIPPE/Thomas TESTA)]('./documentation/doc-bdd.md') |

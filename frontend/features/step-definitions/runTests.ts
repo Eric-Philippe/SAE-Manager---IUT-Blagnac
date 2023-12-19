@@ -30,6 +30,5 @@ When("I run the script", async function () {
 });
 
 Then("all the tests should pass", async function () {
-  // Utilise expect après avoir attendu que la promesse se résolve
   expect(exitCode).to.be.equal(0);
 });
