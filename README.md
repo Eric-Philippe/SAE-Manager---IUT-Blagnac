@@ -9,6 +9,10 @@
 - [Déploiement](#-installation-et-déploiement)
 - [Documentation](#-documentation)
 
+## Behaviour Drive Developpement
+
+Merci de consulter le fichier documentation bdd trouvable [ici](./documentation/doc-bdd.md)
+
 ## ✅ Release
 
 Site internet : [ProGest](https://sae.homelab.mrobert.fr/)
